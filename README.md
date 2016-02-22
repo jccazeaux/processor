@@ -1,6 +1,6 @@
 ![Travis CI](https://travis-ci.org/jccazeaux/processor.svg?branch=master)
 
-# Processor
+# Description
 Tiny library to execute code on multi threads with promises.
 
 # Installation
