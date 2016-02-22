@@ -1,7 +1,7 @@
 ![Travis CI](https://travis-ci.org/jccazeaux/processor.svg?branch=master)
 
 # Description
-Tiny library to execute code on multi threads with promises.
+Tiny library to execute code on multi threads. Result of each thread is resturned as a promise. Processor can use any promise library (see Promise chapter).
 
 # Installation
 
