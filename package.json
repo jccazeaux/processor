@@ -1,5 +1,5 @@
 {
-  "name": "Processor",
+  "name": "promised-processor",
   "version": "0.1.0",
   "main": "./dist/processor.min.js",
   "license": "MIT",
