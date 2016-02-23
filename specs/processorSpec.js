@@ -96,11 +96,11 @@ describe("Processor", function() {
 
 	it("Fails when error in thread", function(done) {
 		Processor.thread(function() {
-			throw 'error';
+			throw new Error('error');
 		})
 		.exec()
 		.catch(function(message) {
-			message.should.be.equal("error");
+			message.should.match(/error/);
 			done();
 		});
 	});
